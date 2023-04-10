@@ -17,3 +17,9 @@
 .b {
     color: rgba(0, 120, 0, 0.484);
 }
+
+#cardCadastroCaixa {
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}

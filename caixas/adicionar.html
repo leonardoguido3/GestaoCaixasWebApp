@@ -107,53 +107,47 @@
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
             <div id="content">
-
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
-                    <!-- Page Heading -->
-                    <h1 style="text-align: center; padding-top: 5px;">Cadastrar nova caixa</h1>
-
-                    <div class="card mb-4 ocultarElemento" id="cardCadastroCaixa">
+                <div class="container ">
+                    <h1 style="text-align: center; padding-top: 10px;">Cadastrar nova caixa</h1>
+                    <div class="card mb-6 ocultarElemento" id="cardCadastroCaixa">
                         <div class="card-body">
                             <form id="formCaixa" data-parsley-validate="">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-6">
                                             <label class="form-label">Nome</label>
                                             <input type="text" class="form-control cpf" id="inputNome" required
                                                 data-parsley-length="[3,255]"
                                                 data-parsley-length-message="O nome informado é inválido.">
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-6">
                                             <label class="form-label">Referencia</label>
                                             <input type="text" class="form-control" id="inputReferencia" maxlength="255"
                                                 required data-parsley-length="[3,255]"
                                                 data-parsley-length-message="A referencia deve conter no minimo 3 e máximo 255 caracteres.">
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="mb-3">
                                             <label class="form-label">Rua</label>
                                             <input type="text" class="form-control" id="inputRua" required>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div class="mb-3">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
                                             <label class="form-label">Bairro</label>
                                             <input type="text" class="form-control" id="inputBairro"
                                                 data-parsley-length="[3,255]"
                                                 data-parsley-length-message="Bairro inválido.">
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div class="mb-3">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
                                             <label class="form-label">Cidade</label>
-                                            <input type="text" class="form-control" id="input"
+                                            <input type="text" class="form-control" id="inputCidade"
                                                 data-parsley-length="[3,255]"
                                                 data-parsley-length-message="Cidade inválido.">
                                         </div>
@@ -162,22 +156,17 @@
                             </form>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-primary float-right"
+                                    <button type="button" class="btn btn-primary float-center"
                                         onclick="SubmeterFormulario()">Cadastrar</button>
-                                    <button type="button" class="btn btn-danger float-right mr-2"
+                                    <button type="button" class="btn btn-danger float-center mr-2"
                                         onclick="RedirecionarListagem()">Cancelar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- /.container-fluid -->
-
             </div>
-            <!-- End of Main Content -->
 
-            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">

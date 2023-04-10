@@ -115,13 +115,13 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 style="text-align: center; padding-top: 5px;">Lista de Caixas</h1>
-                    <!-- <button style="margin-bottom: 5px;" onclick="RedirecionaNovaCaixa()" class="btn btn-outline-success">Adicionar Caixa</button> -->
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
+                    <h1 style="text-align: center; padding-top: 10px;">Lista de Caixas</h1>
+                    <button style="margin-bottom: 5px;" onclick="RedirecionaNovaCaixa()" class="btn btn-outline-success">Adicionar Caixa</button>
+                    
+                    <div class="card shadow mb-4" id="listaCaixas">
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <table class="table table-bordered" id="tabelaCaixa" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
                                             <th>Nome</th>
@@ -143,14 +143,7 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                        <tr id="visualizarCaixa" onclick="VisualizarCaixa()">
-                                            <td>MXT-MTZ-CTR-0001</td>
-                                            <td>AV. MINAS GERAIS</td>
-                                            <td>CENTRO</td>
-                                            <td>MATOZINHOS</td>
-                                            <td>PRÓXIMO A MAX NET</td>
-                                            <td>16 CLIENTES</td>
-                                        </tr>                           
+                       
                                     </tbody>
                                 </table>
                             </div>
